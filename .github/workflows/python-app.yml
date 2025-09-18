@@ -1,4 +1,4 @@
-name: App Python para testar o Github Action do desafio final do curso Fernando Amaral
+name: Modularização para testes unitários e Mock()
 
 on: [push, pull_request]
 
