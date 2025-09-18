@@ -19,4 +19,6 @@ jobs:
         pip install -r requirements.txt
     - name: Teste com Pytest
       run: |
-        pytest 
+        cd $GITHUB_WORKSPACE
+        export PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE
+        pytest -v --maxfail=1
