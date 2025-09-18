@@ -1,1 +1,11 @@
-pytest=7.0
+# PySpark para o código ETL
+pyspark==3.5.1
+
+# Pytest para rodar os testes
+pytest==8.3.5
+
+# Mypy opcional, para checagem de tipos
+mypy==1.8.0
+
+# Outros módulos úteis para testes
+pytest-mock==3.10.0  # facilita o uso de mocks no pytest
